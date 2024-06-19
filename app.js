@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let tentativas = 1;
 let numeroSecreto = parseInt(numeroAleatorio());
 
@@ -34,7 +34,7 @@ const limparInput = function(){
 
 const telaInicial = function(){
     exibirNaTela('h1', 'Jogo do número secreto');
-    exibirNaTela('p', 'Escolha um número de 1 à 100');
+    exibirNaTela('p', 'Escolha um número de 1 à 50');
 }
 
 telaInicial();
